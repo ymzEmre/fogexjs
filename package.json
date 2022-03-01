@@ -1,0 +1,12 @@
+{
+  "name": "fogexjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node regex/number"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
