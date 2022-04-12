@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
+  "type": "module",
   "scripts": {
-    "start": "node regex/number"
+    "start": "node regex/number/identityNumber"
   },
   "keywords": [],
   "author": "",
