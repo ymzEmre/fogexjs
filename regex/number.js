@@ -4,4 +4,4 @@ const number = (value) => {
   return onlyNumber.test(value);
 };
 
-console.log(number('123a'));
+console.log(number("123a"));
