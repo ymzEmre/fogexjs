@@ -5,7 +5,7 @@
   "main": "app.js",
   "type": "module",
   "scripts": {
-    "start": "node regex/number/identityNumber"
+    "start": "node regex/date/date"
   },
   "keywords": [],
   "author": "",
