@@ -3,3 +3,5 @@ let passwordOneRule = new RegExp(/^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#\$%
 const isPasswordOne = (value) => {
   return passwordOneRule.test(value);
 };
+
+module.exports = isPasswordOne;

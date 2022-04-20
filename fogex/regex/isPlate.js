@@ -3,3 +3,5 @@ let plateRule = new RegExp(/^(0[1-9]|[1-7][0-9]|8[01])(([A-Z])(\d{4,5})|([A-Z]{2
 const isPlate = (value) => {
   return plateRule.test(value);
 };
+
+module.exports = isPlate;

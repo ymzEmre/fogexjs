@@ -3,3 +3,5 @@ let patternExtensionTxt = new RegExp(/^(([a-zA-Z]:)|(\\{2}\w+)\$?)(\\(\w[\w ]*))
 const isExtensionTxt = (value) => {
   return patternExtensionTxt.test(value);
 };
+
+module.exports = isExtensionTxt;
