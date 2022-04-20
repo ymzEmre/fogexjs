@@ -1,1 +1,1 @@
-const fogex = require('./regex');
+const fogex = require('./fogex');
