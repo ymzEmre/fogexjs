@@ -30,27 +30,27 @@ fogex.isEmail('test@test');     // false
 | isExtensionTxt   | Check if the file extension is an txt.                                     |
 | isFloat          | Check if the string is a float.                                            |
 | isHash           | Check if the string is a hash of type                                      |
-| isHex            | check if the string is a hexadecimal color.                                |
+| isHex            | Check if the string is a hexadecimal color.                                |
 | isHour12         | Check if the hour 12 format is an correct.                                 |
 | isHour24         | Check if the hour 24 format is an correct.                                 |
-| isHsl            | check if the string is an HSL (hue, saturation, lightness, optional alpha) |
-| isIdentityNumber | check if the string is a valid identity code.                              |
-| isImei           | check if check if the string is a valid IMEI number.                       |
-| isInteger        | check if the string is an integer.                                         |
-| isIp             | check if the string is an IP                                               |
-| isISBN           | check if the string is an ISBN.                                            |
+| isHsl            | Check if the string is an HSL (hue, saturation, lightness, optional alpha) |
+| isIdentityNumber | Check if the string is a valid identity code.                              |
+| isImei           | Check if check if the string is a valid IMEI number.                       |
+| isInteger        | Check if the string is an integer.                                         |
+| isIp             | Check if the string is an IP                                               |
+| isISBN           | Check if the string is an ISBN.                                            |
 | isLowerCase      | Check if the string is a LowerCase.                                        |
-| isMac            | check if the string is a MAC address.                                      |
-| isMd5            | check if the string is a MD5 hash.                                         |
-| isMongoId        | check if the string is a valid a MongoDB ObjectId.                         |
-| isMonth          | check if the string is a month.                                            |
+| isMac            | Check if the string is a MAC address.                                      |
+| isMd5            | Check if the string is a MD5 hash.                                         |
+| isMongoId        | Check if the string is a valid a MongoDB ObjectId.                         |
+| isMonth          | Check if the string is a month.                                            |
 | isPascalCase     | Check if the string is a PascalCase.                                       |
 | isPassword       | Check if a password is strong or not.                                      |
-| isPhoneNumber    | check if the string is a mobile phone number.                              |
-| isPlate          | check if string valid the of a country's license plate.                    |
-| isPort           | check if the string is a valid port number.                                |
-| isRgb            | check if the string is a rgb or rgba color.                                |
-| isString         | check if string of a letter                                                |
+| isPhoneNumber    | Check if the string is a mobile phone number.                              |
+| isPlate          | Check if string valid the of a country's license plate.                    |
+| isPort           | Check if the string is a valid port number.                                |
+| isRgb            | Check if the string is a rgb or rgba color.                                |
+| isString         | Check if string of a letter                                                |
 | isUpperCase      | Check if the string is a UpperCase.                                        |
 | isWhiteSpace     | Check if the string contains white space.                                  |
 
