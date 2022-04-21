@@ -1,7 +1,7 @@
-let passwordOneRule = new RegExp(/^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#\$%\^&\*]).{8,}$/);
+let patternPasswordStrong = new RegExp(/^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#\$%\^&\*])(?=.{8,})/);
 
-const isPasswordOne = (value) => {
-  return passwordOneRule.test(value);
+const isPasswordStrong = (value) => {
+  return patternPasswordStrong.test(value);
 };
 
-module.exports = isPasswordOne;
+module.exports = isPasswordStrong;
