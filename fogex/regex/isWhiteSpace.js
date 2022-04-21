@@ -1,7 +1,7 @@
 const patternWhiteSpace = new RegExp(/^\s*/);
 
-const whiteSpace = (value) => {
+const isWhiteSpace = (value) => {
   return patternWhiteSpace.test(value);
 };
 
-module.exports = whiteSpace;
+module.exports = isWhiteSpace;
