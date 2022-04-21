@@ -1,7 +1,7 @@
-let stringInputRule = new RegExp(/^[a-zA-ZığüşöçİĞÜŞÖÇ\\s]*$/);
+let patternLetterString = new RegExp(/^[a-zA-Z]+$/);
 
-const isStringInput = (value) => {
-  return stringInputRule.test(value);
+const isLetterString = (value) => {
+  return patternLetterString.test(value);
 };
 
-module.exports = isStringInput;
+module.exports = isLetterString;
