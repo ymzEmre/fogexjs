@@ -27,14 +27,12 @@ fogex.isEmail('test@test');     // false
 | isBoolean        | Check if a string is a boolean.                                            |
 | isCamelCase      | Check if the string is a CamelCase.                                        |
 | isEmail          | Check if the string is an email.                                           |
-| isExtensionTxt   | Check if the file extension is an txt.                                     |
 | isFloat          | Check if the string is a float.                                            |
 | isHash           | Check if the string is a hash of type                                      |
 | isHex            | Check if the string is a hexadecimal color.                                |
 | isHour12         | Check if the hour 12 format is an correct.                                 |
 | isHour24         | Check if the hour 24 format is an correct.                                 |
 | isHsl            | Check if the string is an HSL (hue, saturation, lightness, optional alpha) |
-| isIdentityNumber | Check if the string is a valid identity code.                              |
 | isImei           | Check if check if the string is a valid IMEI number.                       |
 | isInteger        | Check if the string is an integer.                                         |
 | isIp             | Check if the string is an IP                                               |
@@ -46,8 +44,6 @@ fogex.isEmail('test@test');     // false
 | isMonth          | Check if the string is a month.                                            |
 | isPascalCase     | Check if the string is a PascalCase.                                       |
 | isPassword       | Check if a password is strong or not.                                      |
-| isPhoneNumber    | Check if the string is a mobile phone number.                              |
-| isPlate          | Check if string valid the of a country's license plate.                    |
 | isPort           | Check if the string is a valid port number.                                |
 | isRgb            | Check if the string is a rgb or rgba color.                                |
 | isString         | Check if string of a letter                                                |
