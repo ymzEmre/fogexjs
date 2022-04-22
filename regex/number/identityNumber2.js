@@ -36,6 +36,6 @@ const identityNumberCheck = ({ IdentityNumber }) => {
   return isLength && isFirstZero && isStep10 && isStep11;
 };
 
-console.log(identityNumberCheck("48424292410"));
+console.log(identityNumberCheck("2323232323232"));
 
 //export { identityNumberCheck };

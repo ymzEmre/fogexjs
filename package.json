@@ -1,13 +1,13 @@
 {
   "name": "fogexjs",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "",
   "main": "app.js",
   "type": "module",
   "scripts": {
-    "start": "node regex/other/trIban"
+    "start": "node index"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "MIT"
 }
