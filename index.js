@@ -1,1 +1,3 @@
-const fogex = require('./fogex');
+const fogex = require("./fogex");
+
+fogex.isEmail("test@gmail.com");
