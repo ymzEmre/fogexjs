@@ -1,3 +1,4 @@
 const fogex = require("./fogex");
 
-fogex.isEmail("test@gmail.com");
+let isMail = fogex.isEmail("test@gmail.com");
+console.log(isMail);
