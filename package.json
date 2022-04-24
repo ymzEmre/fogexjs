@@ -4,9 +4,21 @@
   "description": "",
   "main": "app.js",
   "scripts": {
+<<<<<<< HEAD
     "start": "node index"
   },
   "keywords": [],
   "author": "",
   "license": "MIT"
+=======
+    "start": "node index",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
+>>>>>>> 2b24647abf34ee54162e15b814a805a4ab1354af
 }

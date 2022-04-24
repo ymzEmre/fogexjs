@@ -1,1 +1,0 @@
-const fogex = require('./regex');

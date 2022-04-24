@@ -13,7 +13,11 @@ module.exports.isIdentityNumber = require('./regex/isIdentityNumber');
 module.exports.isImei = require('./regex/isImei');
 module.exports.isInteger = require('./regex/isInteger');
 module.exports.isIp = require('./regex/isIp');
+<<<<<<< HEAD
 module.exports.isISBN = require('./regex/isISBN');
+=======
+module.exports.isIsbn = require('./regex/isIsbn');
+>>>>>>> 2b24647abf34ee54162e15b814a805a4ab1354af
 module.exports.isLowerCase = require('./regex/isLowerCase');
 module.exports.isMac = require('./regex/isMac');
 module.exports.isMd5 = require('./regex/isMd5');
@@ -22,6 +26,10 @@ module.exports.isMonth = require('./regex/isMonth');
 module.exports.isPascalCase = require('./regex/isPascalCase');
 module.exports.isPassword = require('./regex/isPassword');
 module.exports.isPhoneNumber = require('./regex/isPhoneNumber');
+<<<<<<< HEAD
+=======
+module.exports.isPin = require('./regex/isPin');
+>>>>>>> 2b24647abf34ee54162e15b814a805a4ab1354af
 module.exports.isPlate = require('./regex/isPlate');
 module.exports.isPort = require('./regex/isPort');
 module.exports.isRgb = require('./regex/isRgb');
