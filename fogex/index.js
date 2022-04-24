@@ -22,6 +22,7 @@ module.exports.isMonth = require('./regex/isMonth');
 module.exports.isPascalCase = require('./regex/isPascalCase');
 module.exports.isPassword = require('./regex/isPassword');
 module.exports.isPhoneNumber = require('./regex/isPhoneNumber');
+module.exports.isPin = require('./regex/isPin');
 module.exports.isPlate = require('./regex/isPlate');
 module.exports.isPort = require('./regex/isPort');
 module.exports.isRgb = require('./regex/isRgb');
