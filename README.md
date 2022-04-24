@@ -19,38 +19,6 @@ fogex.isEmail('test@test.com');  // true
 fogex.isEmail('test@test');     // false
 ```
 
-<<<<<<< HEAD
-## Regex Patterns
-
-| Tables           | Description                                                                |
-| ---------------- | :------------------------------------------------------------------------- |
-| isAscii          | Check if the string contains ASCII chars only.                             |
-| isBoolean        | Check if a string is a boolean.                                            |
-| isCamelCase      | Check if the string is a CamelCase.                                        |
-| isEmail          | Check if the string is an email.                                           |
-| isFloat          | Check if the string is a float.                                            |
-| isHash           | Check if the string is a hash of type                                      |
-| isHex            | Check if the string is a hexadecimal color.                                |
-| isHour12         | Check if the hour 12 format is an correct.                                 |
-| isHour24         | Check if the hour 24 format is an correct.                                 |
-| isHsl            | Check if the string is an HSL (hue, saturation, lightness, optional alpha) |
-| isImei           | Check if check if the string is a valid IMEI number.                       |
-| isInteger        | Check if the string is an integer.                                         |
-| isIp             | Check if the string is an IP                                               |
-| isISBN           | Check if the string is an ISBN.                                            |
-| isLowerCase      | Check if the string is a LowerCase.                                        |
-| isMac            | Check if the string is a MAC address.                                      |
-| isMd5            | Check if the string is a MD5 hash.                                         |
-| isMongoId        | Check if the string is a valid a MongoDB ObjectId.                         |
-| isMonth          | Check if the string is a month.                                            |
-| isPascalCase     | Check if the string is a PascalCase.                                       |
-| isPassword       | Check if a password is strong or not.                                      |
-| isPort           | Check if the string is a valid port number.                                |
-| isRgb            | Check if the string is a rgb or rgba color.                                |
-| isString         | Check if string of a letter                                                |
-| isUpperCase      | Check if the string is a UpperCase.                                        |
-| isWhiteSpace     | Check if the string contains white space.                                  |
-=======
 ### Use with parameters
 
 `isPhoneNumber`
@@ -100,7 +68,6 @@ fogex.isPin('123456', '6'); // true
 | isString                   | Check if string of a letter                                                |
 | isUpperCase                | Check if the string is a UpperCase.                                        |
 | isWhiteSpace               | Check if the string contains white space.                                  |
->>>>>>> 2b24647abf34ee54162e15b814a805a4ab1354af
 
 ## Developers
 
