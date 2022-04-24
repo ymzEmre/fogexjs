@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "node ./fogex/regex/isPhoneNumber",
+    "start": "node index",
     "test": "jest"
   },
   "keywords": [],
