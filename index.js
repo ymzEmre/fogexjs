@@ -1,1 +1,1 @@
-const fogex = require('./fogex');
+import * as fogex from './fogex/index.js';

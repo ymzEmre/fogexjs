@@ -1,7 +1,5 @@
 const patternLowerCase = new RegExp(/^[a-z]+$/);
 
-const isLowerCase = (value) => {
+export const isLowerCase = (value) => {
   return patternLowerCase.test(value);
 };
-
-module.exports = isLowerCase;

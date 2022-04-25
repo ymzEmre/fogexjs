@@ -1,7 +1,5 @@
 let patternPasswordStrong = new RegExp(/^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#\$%\^&\*])(?=.{8,})/);
 
-const isPasswordStrong = (value) => {
+export const isPassword = (value) => {
   return patternPasswordStrong.test(value);
 };
-
-module.exports = isPasswordStrong;
