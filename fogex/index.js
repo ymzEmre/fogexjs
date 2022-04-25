@@ -30,3 +30,4 @@ module.exports.isString = require("./regex/isString");
 module.exports.isUpperCase = require("./regex/isUpperCase");
 module.exports.isWhiteSpace = require("./regex/isWhiteSpace");
 module.exports.isCreditCard = require("./regex/isCreditCard");
+module.exports.isPostalCode = require("./regex/isPostalCode");
