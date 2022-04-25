@@ -1,7 +1,5 @@
 let patternLetterString = new RegExp(/^[a-zA-Z]+$/);
 
-const isLetterString = (value) => {
+export const isString = (value) => {
   return patternLetterString.test(value);
 };
-
-module.exports = isLetterString;

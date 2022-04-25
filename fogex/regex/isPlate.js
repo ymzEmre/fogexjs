@@ -3,7 +3,7 @@ const patternPlates = {
   US: /^B[A-Z]{2}-[0-9]{3}$/,
 };
 
-const isPlate = (value, countyCode) => {
+export const isPlate = (value, countyCode) => {
   let patternPlate = new RegExp(patternPlates[countyCode]);
   if (value == null || patternPlate == '/(?:)/') {
     return false;
@@ -11,5 +11,3 @@ const isPlate = (value, countyCode) => {
     return patternPlate.test(value);
   }
 };
-
-module.exports = isPlate;

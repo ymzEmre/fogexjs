@@ -1,7 +1,5 @@
 const patternUpperCase = new RegExp(/^[A-Z]+$/);
 
-const isUpperCase = (value) => {
+export const isUpperCase = (value) => {
   return patternUpperCase.test(value);
 };
-
-module.exports = isUpperCase;
