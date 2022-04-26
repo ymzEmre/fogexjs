@@ -3,6 +3,6 @@ const patternIsbn = new RegExp(
 );
 
 export const isIsbn = (value) => {
-  if (value == null || patternPhoneNumber == '/(?:)/') return;
+  if (value == null || patternIsbn == '/(?:)/') return;
   return patternIsbn.test(value);
 };
