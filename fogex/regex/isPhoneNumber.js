@@ -5,9 +5,6 @@ const patternPhones = {
 
 export const isPhoneNumber = (value, countyCode) => {
   let patternPhoneNumber = new RegExp(patternPhones[countyCode]);
-  if (value == null || patternPhoneNumber == '/(?:)/') {
-    return false;
-  } else {
-    return patternPhoneNumber.test(value);
-  }
+  if (value == null || patternPhoneNumber == '/(?:)/') return;
+  return patternPhoneNumber.test(value);
 };
