@@ -5,6 +5,7 @@ const patternPins = {
 
 export const isPin = (value, pinLength) => {
   let patternPin = new RegExp(patternPins[pinLength]);
-  if (value == null || patternPhoneNumber == '/(?:)/') return;
+
+  if (value == null || patternPins == '/(?:)/') return;
   return patternPin.test(value);
 };
