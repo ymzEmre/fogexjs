@@ -18,5 +18,3 @@ const isImageUrl = (value, extension) => {
     return patternImageUrl.test(value);
   }
 };
-
-module.exports = isImageUrl;

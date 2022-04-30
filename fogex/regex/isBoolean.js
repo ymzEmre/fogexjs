@@ -1,7 +1,6 @@
 const patternBoolean = new RegExp(/^(true|false)$/);
 
-const isBoolean = (value) => {
+export const isBoolean = (value) => {
+  if (value == null || patternBoolean == '/(?:)/') return;
   return patternBoolean.test(value);
 };
-
-module.exports = isBoolean;
