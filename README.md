@@ -1,22 +1,22 @@
-# fogex.js
+# fogex
 
 Form Regex
 
 ## Installation
 
 ```
-npm install fogexjs
+npm install fogex
 ```
 
 ## Usage
 
 ```
-const fogex = require('fogexjs');
+import * as fogex from './fogex/index.js';
 ```
 
 ```
-fogex.isEmail('test@test.com');  // true
-fogex.isEmail('test@test');     // false
+fogex.isEmail('test@test.com'); // true
+fogex.isEmail('test@test'); // false
 ```
 
 ### Use with parameters
@@ -35,39 +35,58 @@ fogex.isPin('123456', '6'); // true
 
 ```
 
+`isCreditCard`
+
+#### Default
+
+```
+// Accepts all card types
+isCreditCard.isCreditCard('1234 1234 1234 1234'); // true
+```
+
+#### Use with parameters
+
+```
+isCreditCard.isCreditCard('4140 5542 4728 1917', 'VISA'); // true
+```
+
 ## Regex Patterns
 
-| Tables                     | Description                                                                | Parameter    |
-| -------------------------- | :------------------------------------------------------------------------- | ------------ |
-| isAscii                    | Check if the string contains ASCII chars only.                             |
-| isBoolean                  | Check if a string is a boolean.                                            |
-| isCamelCase                | Check if the string is a camelCase.                                        |
-| isEmail                    | Check if the string is an email.                                           |
-| isFloat                    | Check if the string is a float.                                            |
-| isHash                     | Check if the string is a hash of type                                      |
-| isHex                      | Check if the string is a hexadecimal color.                                |
-| isHour12                   | Check if the hour 12 format is an correct.                                 |
-| isHour24                   | Check if the hour 24 format is an correct.                                 |
-| isHsl                      | Check if the string is an HSL (hue, saturation, lightness, optional alpha) |
-| isImei                     | Check if check if the string is a valid IMEI number.                       |
-| isInteger                  | Check if the string is an integer.                                         |
-| isIp                       | Check if the string is an IP                                               |
-| isISBN                     | Check if the string is an ISBN.                                            |
-| isLowerCase                | Check if the string is a LowerCase.                                        |
-| isMac                      | Check if the string is a MAC address.                                      |
-| isMd5                      | Check if the string is a MD5 hash.                                         |
-| isMongoId                  | Check if the string is a valid a MongoDB ObjectId.                         |
-| isMonth                    | Check if the string is a month.                                            |
-| isPascalCase               | Check if the string is a PascalCase.                                       |
-| isPassword                 | Check if a password is strong or not.                                      |
-| isPhoneNumber(val, locale) | Check if the string is a mobile phone number.                              | `US` or `TR` |
-| isPin(val, length)         | Check if the string is a pin.                                              | `4` or `6`   |
-| isPlate(val, locale)       | Check if string the format of a plate format.                              | `US` or `TR` |
-| isPort                     | Check if the string is a valid port number.                                |
-| isRgb                      | Check if the string is a rgb or rgba color.                                |
-| isString                   | Check if string of a letter                                                |
-| isUpperCase                | Check if the string is a UpperCase.                                        |
-| isWhiteSpace               | Check if the string contains white space.                                  |
+| Tables                        | Description                                                                           | Parameter                |
+| ----------------------------- | :------------------------------------------------------------------------------------ | ------------------------ |
+| isAscii                       | Check if the string contains ASCII chars only.                                        |
+| isBoolean                     | Check if a string is a boolean.                                                       |
+| isCamelCase                   | Check if the string is a camelCase.                                                   |
+| isCreditCard(val, cardType)   | Check if the string is a credit card number. The default value accepts all card types | `VISA` or `MASTER`       |
+| isEmail                       | Check if the string is an email.                                                      |
+| isFloat                       | Check if the string is a float.                                                       |
+| isHash                        | Check if the string is a hash of type                                                 |
+| isHex                         | Check if the string is a hexadecimal color.                                           |
+| isHour12                      | Check if the hour 12 format is an correct.                                            |
+| isHour24                      | Check if the hour 24 format is an correct.                                            |
+| isHsl                         | Check if the string is an HSL (hue, saturation, lightness, optional alpha)            |
+| isIdentityNumber(val, locale) | Check if the string is a identity number.                                             | `US` or `TR`             |
+| isImageUrl(val, extension)    | Check if the string is a image url. The default value accepts all image extension     | `png`,`jpg`,`jpeg`,`gif` |
+| isImei                        | Check if check if the string is a valid IMEI number.                                  |
+| isInteger                     | Check if the string is an integer.                                                    |
+| isIp                          | Check if the string is an IP                                                          |
+| isISBN                        | Check if the string is an ISBN.                                                       |
+| isLowerCase                   | Check if the string is a LowerCase.                                                   |
+| isMac                         | Check if the string is a MAC address.                                                 |
+| isMd5                         | Check if the string is a MD5 hash.                                                    |
+| isMongoId                     | Check if the string is a valid a MongoDB ObjectId.                                    |
+| isMonth                       | Check if the string is a month.                                                       |
+| isPascalCase                  | Check if the string is a PascalCase.                                                  |
+| isPassword                    | Check if a password is strong or not.                                                 |
+| isPhoneNumber(val, locale)    | Check if the string is a mobile phone number.                                         | `US` or `TR`             |
+| isPin(val, length)            | Check if the string is a pin.                                                         | `4` or `6`               |
+| isPlate(val, locale)          | Check if string the format of a plate format.                                         | `US` or `TR`             |
+| isPort                        | Check if the string is a valid port number.                                           |
+| isPostalCode(val, locale)     | Check if the string is a postal code number.                                          | `US` or `TR`             |
+| isRgb                         | Check if the string is a rgb or rgba color.                                           |
+| isString                      | Check if string of a letter                                                           |
+| isUpperCase                   | Check if the string is a UpperCase.                                                   |
+| isWhiteSpace                  | Check if the string contains white space.                                             |
 
 ## Developers
 
