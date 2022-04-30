@@ -6,5 +6,4 @@ const patternIdentityNumbers = {
 export const isIdentityNumber = (value, countyCode) => {
   let patternIdentityNumber = new RegExp(patternIdentityNumbers[countyCode]);
   if (value == null || patternIdentityNumber == "/(?:)/") return;
-  return patternIdentityNumber.test(value);
 };
