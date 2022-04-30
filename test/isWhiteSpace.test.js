@@ -1,4 +1,4 @@
-const isWhiteSpace = require('../fogex/regex/isWhiteSpace');
+import isWhiteSpace from '../fogex/regex/isWhiteSpace';
 
 it('should return true for valid white space strings', () => {
   expect(isWhiteSpace(' ')).toBe(true);

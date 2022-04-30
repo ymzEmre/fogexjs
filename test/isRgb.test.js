@@ -1,4 +1,4 @@
-const isRgb = require('../fogex/regex/isRgb');
+import isRgb from '../fogex/regex/isRgb';
 
 it('should return true for valid rgb values', () => {
   expect(isRgb('rgb(255, 0, 0)')).toBe(true);

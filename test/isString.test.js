@@ -1,4 +1,4 @@
-const isString = require('../fogex/regex/isString');
+import isString from '../fogex/regex/isString';
 
 it('should return true for valid string values', () => {
   expect(isString('abc')).toBe(true);

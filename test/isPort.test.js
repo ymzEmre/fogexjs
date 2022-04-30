@@ -1,4 +1,4 @@
-const isPort = require('../fogex/regex/isPort');
+import isPort from '../fogex/regex/isPort';
 
 it('should return true for valid port numbers', () => {
   expect(isPort('80')).toBe(true);

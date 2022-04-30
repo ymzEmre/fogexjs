@@ -4,15 +4,17 @@ const patternCreditCards = {
   MASTER: /^5([1-5]){1}([0-9]){2}\s?([0-9]{4})\s?([0-9]{4})\s?([0-9]{4})$/,
 };
 
-export const isCreditCard = (value, cardType) => {
+const isCreditCard = (value, cardType) => {
   let patternCreditCard = new RegExp(patternCreditCards[cardType]);
 
   if (value == null) {
     return false;
-  } else if (patternCreditCard == "/(?:)/") {
-    let patternDefaultCreditCard = new RegExp(patternCreditCards["DEFAULT"]);
+  } else if (patternCreditCard == '/(?:)/') {
+    let patternDefaultCreditCard = new RegExp(patternCreditCards['DEFAULT']);
     return patternDefaultCreditCard.test(value);
   } else {
     return patternCreditCard.test(value);
   }
 };
+
+export default isCreditCard;

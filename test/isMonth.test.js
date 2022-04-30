@@ -1,4 +1,4 @@
-const isMonth = require('../fogex/regex/isMonth');
+import isMonth from '../fogex/regex/isMonth';
 
 it('should return true for valid month values', () => {
   expect(isMonth('january')).toBe(true);

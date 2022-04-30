@@ -1,4 +1,4 @@
-const isInteger = require('../fogex/regex/isInteger');
+import isInteger from '../fogex/regex/isInteger';
 
 it('should return true for valid integer values', () => {
   expect(isInteger(0)).toBe(true);

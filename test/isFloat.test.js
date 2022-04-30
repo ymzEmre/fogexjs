@@ -1,4 +1,4 @@
-const isFloat = require('../fogex/regex/isFloat');
+import isFloat from '../fogex/regex/isFloat';
 
 it('should return true for valid float values', () => {
   expect(isFloat('1.0')).toBe(true);

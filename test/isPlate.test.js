@@ -1,4 +1,4 @@
-const isPlate = require('../fogex/regex/isPlate');
+import isPlate from '../fogex/regex/isPlate';
 
 it('should return true for plate format', () => {
   expect(isPlate('01XX111', 'TR')).toBe(true);

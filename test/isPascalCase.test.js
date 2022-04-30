@@ -1,4 +1,4 @@
-const isPascalCase = require('../fogex/regex/isPascalCase');
+import isPascalCase from '../fogex/regex/isPascalCase';
 
 it('should return true for valid pascalCase strings', () => {
   expect(isPascalCase('FooBar')).toBe(true);

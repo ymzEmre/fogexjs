@@ -1,4 +1,4 @@
-const isBoolean = require('../fogex/regex/isBoolean');
+import isBoolean from '../fogex/regex/isBoolean.js';
 
 it('should return true for valid boolean values', () => {
   expect(isBoolean(true)).toBe(true);
